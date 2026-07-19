@@ -25,23 +25,7 @@ CREATE DATABASE healthcare_db;
 -- This query library turns that raw data into a queryable analytics layer,
 -- answering the kinds of questions a hospital administrator, finance team, or
 -- care coordinator would actually ask:
---
---   - Which conditions and hospitals drive the highest billing?
---   - How does patient volume trend over time (monthly, yearly)?
---   - How does length of stay compare across conditions and admission types?
---   - Which doctors/hospitals handle the most patients?
---   - Are there outlier cases with unusually high billing for their condition?
---
--- Each query is written as standalone, runnable SQL - covering aggregations,
--- CTEs, window functions (RANK, LAG, PERCENT_RANK, running totals), and
--- subqueries - rather than relying on pandas groupby alone. This demonstrates
--- the kind of analytical SQL used in real BI/data analyst workflows, on top
--- of a database (SQLite or MySQL) built from the same cleaned data used in
--- the notebook analysis.
---
--- Run against sql/healthcare.db (SQLite) or the MySQL 'encounters' table
--- built via sql/build_db.py / sql/build_db_mysql.py.
--- ============================================================
+
 
 
 -- 1. Average billing and patient volume by medical condition, ranked
