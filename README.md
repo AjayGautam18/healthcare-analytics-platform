@@ -70,10 +70,6 @@ jupyter notebook
 - **matplotlib / seaborn** — visualization
 - **sqlite3 / SQLAlchemy** — relational data modeling and SQL querying
 
-## What This Project Deliberately Does Not Do
-
-- No predictive modeling / classification / regression — the data has no genuine signal to
-  model (see caveat above); doing so would produce plausible-looking but meaningless metrics
 
 ## Future Work
 
